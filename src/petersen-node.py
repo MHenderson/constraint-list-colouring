@@ -27,6 +27,6 @@ nx.draw(G,
 )
 
 patches = [mpatches.Patch(color = plt.cm.tab10(i), label = f'{i}') for i in range(1, 10)]
-plt.legend(handles = patches, bbox_to_anchor = (1.1, 1))
+plt.legend(handles = patches, bbox_to_anchor = (1, 1))
 
 plt.savefig("png/petersen-node.png", format = "PNG")
