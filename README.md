@@ -6,3 +6,7 @@ Constraint-based list-colouring in Python with vizing.
 
 ![](png/petersen-node.png)
 
+## Edge list-colouring
+
+![](png/petersen-edge.png)
+
