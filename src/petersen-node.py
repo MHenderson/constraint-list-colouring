@@ -1,16 +1,12 @@
+import listcolouring as lc
 import networkx as nx
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
-
-import listcolouring
-from listcolouring import list_init_node
-
-import vizing
-from vizing import list_colouring_solution
+import vizing as vz
 
 G = nx.petersen_graph()
-G = list_init_node(G, range(1, 10), 3, 0)
-G = list_colouring_solution(G)
+G = lc.list_init_node(G, range(1, 10), 3, 0)
+G = vz.node_list_colouring_solution(G)
 
 G_layout = nx.shell_layout(G, nlist = [range(5, 10), range(5)], rotate = 0.)
 
