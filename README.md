@@ -10,3 +10,7 @@ Constraint-based list-colouring in Python with vizing.
 
 ![](png/petersen-edge.png)
 
+## Total list-colouring
+
+![](png/petersen-total.png)
+
